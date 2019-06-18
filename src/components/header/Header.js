@@ -6,13 +6,13 @@ import EnzymeLogo from '../../assets/graphics/enzyme.png';
 
 const Header = props => {
   return (
-    <header>
+    <header data-test="headerComponent">
       <div className="wrap">
         <div className="logo">
           <div className="logos">
-            <img src={ReactLogo} alt="React Logo" />
-            <img src={JestLogo} alt="Jest Logo" />
-            <img src={EnzymeLogo} alt="Enzyme Logo" />
+            <img data-test="logoImg" src={ReactLogo} alt="React Logo" />
+            <img data-test="logoImg" src={JestLogo} alt="Jest Logo" />
+            <img data-test="logoImg" src={EnzymeLogo} alt="Enzyme Logo" />
           </div>
         </div>
       </div>
