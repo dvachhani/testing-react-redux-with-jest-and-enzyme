@@ -9,11 +9,9 @@ const Header = props => {
     <header data-test="headerComponent">
       <div className="wrap">
         <div className="logo">
-          <div className="logos">
-            <img data-test="logoImg" src={ReactLogo} alt="React Logo" />
-            <img data-test="logoImg" src={JestLogo} alt="Jest Logo" />
-            <img data-test="logoImg" src={EnzymeLogo} alt="Enzyme Logo" />
-          </div>
+          <img data-test="logoImg" src={ReactLogo} alt="React Logo" />
+          <img data-test="logoImg" src={JestLogo} alt="Jest Logo" />
+          <img data-test="logoImg" src={EnzymeLogo} alt="Enzyme Logo" />
         </div>
       </div>
     </header>

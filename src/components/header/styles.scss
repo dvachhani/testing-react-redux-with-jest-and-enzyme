@@ -15,7 +15,8 @@ header {
     max-width: 980px;
 
     .logo {
-      display: block;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       height: 40px;
       position: absolute;
       left: 10px;
@@ -23,12 +24,6 @@ header {
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       transform: translateY(-50%);
-
-      .logos {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        height: 100%;
-      }
 
       img {
         display: block;
