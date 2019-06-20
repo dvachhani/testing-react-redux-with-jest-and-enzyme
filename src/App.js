@@ -1,10 +1,16 @@
 import React from 'react';
-import './App.css';
+import './app.scss';
+
+import Header from './components/header/Header';
+import Headline from './components/headline/Headline';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
+    <div>
+      <Header />
+      <section className="main">
+        <Headline headline="Posts" desc="Click the button to render posts!" />
+      </section>
     </div>
   );
 }
