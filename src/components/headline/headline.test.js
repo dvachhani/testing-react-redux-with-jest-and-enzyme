@@ -48,7 +48,7 @@ describe('Headline component', () => {
   });
 
   describe('Check PropTypes', () => {
-    it('Should not through a warning', () => {
+    it('Should not throw a warning', () => {
       const expectedProps = {
         headline: 'Test Header',
         desc: 'Test Description',
